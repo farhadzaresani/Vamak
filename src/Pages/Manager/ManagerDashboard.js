@@ -1,9 +1,10 @@
 import React from 'react'
+import ManegerLayout from '../../Layout/Maneger/ManegerLayout'
 
 export default function ManagerDashboard() {
   return (
-    <div>
-      
+    <div className='flex flex-col'>
+      <ManegerLayout/>
     </div>
   )
 }

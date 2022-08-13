@@ -17,6 +17,7 @@ import Connections from './Pages/Manager/Connections'
 import ForgetPass from './Pages/Logins/LoginUser/ForgetPass';
 import SingleLoan from './Pages/Users/SingleLoan';
 import Message from './Pages/Users/Message';
+import ManagerForgetPass from './Pages/Logins/ManagerLogin/ManagerForgetPass';
 
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
           <Route path='' element={<UserLogin/>} />
           <Route path='/ManagerLogin' element={<ManagerLogin/>} />
           <Route path='/ForgetPassword' element={<ForgetPass/>} />
-
+          <Route path='/ManagerForgetPass' element={<ManagerForgetPass/>}/>
 
         <Route path='/UserDashboard' element={<UserDashboard/>}>
           <Route path='' element={<Home/>} />
@@ -42,7 +43,7 @@ function App() {
         </Route>
 
         <Route path='/ManagerDashboard' element={<ManagerDashboard/>}>
-          <Route path='Trunk' element={<Trunk/>} />
+          <Route path='' element={<Trunk/>} />
           <Route path='Loan' element={<Loans/>} />
           <Route path='Users' element={<Users/>} />
           <Route path='Reports' element={<Reports/>} />

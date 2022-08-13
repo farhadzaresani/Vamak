@@ -19,7 +19,7 @@ export default function Balance() {
                 </div> */}
 
 
-<CircularProgressbar percentage={percentage} text={`${percentage}%`}
+<CircularProgressbar value={percentage} text={`${percentage}%`}
 strokeWidth={12}
 styles={buildStyles({
     textSize: "10px",

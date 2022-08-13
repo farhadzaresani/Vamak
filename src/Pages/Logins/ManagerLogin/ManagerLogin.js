@@ -51,7 +51,7 @@ console.log(admin.adminData.password)
             <p className={`text-red-600 text-[12px]  ${incorect?'':'hidden'}`}>  رمز عبور درست نیست</p>
           </div>
        
-          <Link to="/ForgetPassword" className='text-[12px] text-blue-700 underline flex justify-end w-[25vw]'>فراموشی رمز</Link>
+          <Link to="/ManagerForgetPass" className='text-[12px] text-blue-700 underline flex justify-end w-[25vw]'>فراموشی رمز</Link>
           <button onClick={()=>handleLogin(name,password)} disabled={!name||!password}  className='disabled:opacity-50 w-[25vw] h-[40px] rounded-md bg-[#6873AC] text-white'>ورود به حساب کاربری</button>
         </div>
       </div>
