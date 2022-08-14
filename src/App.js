@@ -18,6 +18,7 @@ import ForgetPass from './Pages/Logins/LoginUser/ForgetPass';
 import SingleLoan from './Pages/Users/SingleLoan';
 import Message from './Pages/Users/Message';
 import ManagerForgetPass from './Pages/Logins/ManagerLogin/ManagerForgetPass';
+import MSingleLoan from './Pages/Manager/MSingleLoan';
 
 
 function App() {
@@ -44,8 +45,9 @@ function App() {
 
         <Route path='/ManagerDashboard' element={<ManagerDashboard/>}>
           <Route path='' element={<Trunk/>} />
-          <Route path='Loan' element={<Loans/>} />
-          <Route path='Users' element={<Users/>} />
+          <Route path='Users' element={<Users/>}/>
+          <Route path='Loan' element={<Loans/>}/>
+          <Route path='MSingleLoan' element={<MSingleLoan/>}/>
           <Route path='Reports' element={<Reports/>} />
           <Route path='Connections' element={<Connections/>} />
         </Route>

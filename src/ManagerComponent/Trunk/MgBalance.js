@@ -5,7 +5,7 @@ import 'react-circular-progressbar/dist/styles.css';
 export default function MgBalance() {
     const percentage = 10;
   return (
-    <div className='bg-white rounded-md w-[40vw] h-[55vh] m-10 mr-[6vw]'>
+    <div className='bg-white rounded-md w-[37vw] h-[55vh] '>
     <div className=' flex flex-col items-center'>
     <div className=''>
         <div className=' w-[35vw] flex justify-end items-center m-5 space-x-2 '>
